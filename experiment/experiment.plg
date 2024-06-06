@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: experiment - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\WindLY\AppData\Local\Temp\RSP8FA5.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GR /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\WindLY\Desktop\网络与信息系统安全综合设计实验\6\06-vc6\06\experiment\experimentDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\WindLY\AppData\Local\Temp\RSP8FA5.tmp" 
+Creating temporary file "C:\Users\WindLY\AppData\Local\Temp\RSP8FA6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/experiment.pdb" /debug /machine:I386 /out:"Debug/experiment.exe" /pdbtype:sept 
+".\Debug\message.obj"
+".\Debug\database.obj"
+".\Debug\all_in_one.obj"
+".\Debug\XmlNodeWrapper.obj"
+".\Debug\DlgAddUser.obj"
+".\Debug\experiment.obj"
+".\Debug\experimentDlg.obj"
+".\Debug\msgdispatcher.obj"
+".\Debug\sha.obj"
+".\Debug\StdAfx.obj"
+".\Debug\experiment.res"
+]
+Creating command line "link.exe @C:\Users\WindLY\AppData\Local\Temp\RSP8FA6.tmp"
+<h3>Output Window</h3>
+Compiling...
+experimentDlg.cpp
+c:\users\windly\desktop\网络与信息系统安全综合设计实验\6\06-vc6\06\experiment\experimentdlg.cpp(228) : warning C4101: 'e' : unreferenced local variable
+Linking...
+Creating temporary file "C:\Users\WindLY\AppData\Local\Temp\RSP914D.tmp" with contents
+[
+/nologo /o"Debug/experiment.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\message.sbr"
+".\Debug\database.sbr"
+".\Debug\all_in_one.sbr"
+".\Debug\XmlNodeWrapper.sbr"
+".\Debug\DlgAddUser.sbr"
+".\Debug\experiment.sbr"
+".\Debug\experimentDlg.sbr"
+".\Debug\msgdispatcher.sbr"
+".\Debug\sha.sbr"]
+Creating command line "bscmake.exe @C:\Users\WindLY\AppData\Local\Temp\RSP914D.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+experiment.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
